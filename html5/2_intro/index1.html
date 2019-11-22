@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body {
+        color: white;
+        font-size: 18px;
+        font-family: sans-serif;
+      }
+      .wrapper {
+        width: 30%;
+        height: 250px;
+        text-align: center;
+      }
+      span {
+        vertical-align: middle;
+      }
+      header {
+        background-color: red;
+        width: 100%;
+        display: block;
+        height: 15%;
+        margin-bottom: 3px;
+      }
+      nav {
+        background-color: orange;
+        width: 100%;
+        display: block;
+        height: 15%;
+        margin-bottom: 3px;
+      }
+      section {
+        float: left;
+        background-color: yellow;
+        width: 65%;
+        margin-bottom: 3px;
+        border: 1px solid black;
+        height: 55%;
+        position: relative;
+      }
+      article.one {
+        background-color: green;
+        width: 95%;
+        margin: 3px;
+        border: 1px solid black;
+        height: 25%;
+        position: absolute;
+        bottom: 0px;
+      }
+      article.two {
+        background-color: green;
+        width: 95%;
+        margin: 3px;
+        border: 1px solid black;
+        height: 25%;
+        position: absolute;
+        bottom: 28%;
+      }
+
+      aside {
+        float: right;
+        background-color: blue;
+        width: 33%;
+        height: 56%;
+        display: inline-block;
+        margin-bottom: 3px;
+      }
+      .clear {
+        clear: both;
+      }
+      footer {
+        background-color: rgb(255, 0, 212);
+        width: 100%;
+        height: 15%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header><span>header</span></header>
+      <nav><span>nav</span></nav>
+      <section>
+        <span>section</span>
+        <article class="one"><span>article</span></article>
+        <article class="two"><span>article</span></article>
+      </section>
+      <aside><span>aside</span></aside>
+      <div class="clear"></div>
+      <footer><span>footer</span></footer>
+    </div>
+  </body>
+</html>
